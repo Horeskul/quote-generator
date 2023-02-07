@@ -81,10 +81,13 @@ const quotes = [
     },
 ];
 
-btn.addEventListener('click', function() {
+function generate() {
 
     let random = Math.floor(Math.random() * quotes.length);
 
     quote.innerText = quotes[random].quote;
     person.innerText = quotes[random].person;
-});
+};
+
+btn.addEventListener('click', generate);
+window.addEventListener("load", generate);
