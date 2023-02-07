@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -85,4 +86,75 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  background: #045542;
+}
+
+.container {
+  max-width: 42rem;
+}
+.main__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main__title {
+  font-size: 2.6rem;
+  padding: 1rem;
+  text-align: center;
+  border: 0.2rem solid #fff;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: #0e8181;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  -webkit-box-shadow: 0 0.2rem 0.4rem 0.2rem #621919;
+          box-shadow: 0 0.2rem 0.4rem 0.2rem #621919;
+}
+.main__content {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 5rem;
+  background: #621919;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.quote-text {
+  margin-bottom: 2rem;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.person::before {
+  content: "-";
+}
+
+#generate {
+  background: rgba(232, 32, 6, 0.7882352941);
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+#generate:hover {
+  background-color: #000000;
 }
