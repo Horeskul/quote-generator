@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+  padding: 1rem;
   font-family: "Roboto Mono", monospace;
   font-size: 2rem;
   background: #045542;
@@ -125,15 +126,26 @@ body {
   -webkit-box-shadow: 0 0.2rem 0.8rem 0.2rem #000000;
           box-shadow: 0 0.2rem 0.8rem 0.2rem #000000;
 }
+@media (max-width: 767.98px) {
+  .main__title {
+    font-size: 2rem;
+    padding: 0.7rem;
+  }
+}
 .main__content {
   border: 0.2rem solid #fff;
   border-radius: 2rem;
   -webkit-box-shadow: 0 0.2rem 0.8rem 0.2rem #000000;
           box-shadow: 0 0.2rem 0.8rem 0.2rem #000000;
-  padding: 5rem;
+  padding: 4rem;
   background: #621919;
   color: #fff;
   margin-bottom: 2rem;
+}
+@media (max-width: 767.98px) {
+  .main__content {
+    padding: 2rem;
+  }
 }
 
 .quote-text {
