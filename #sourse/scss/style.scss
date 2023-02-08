@@ -66,6 +66,7 @@ body{
 .quote {
     font-style: italic;
     font-weight: 200;
+    line-height: 2.5rem;
 }
 .person {
     &::before{
@@ -81,6 +82,7 @@ body{
     color: #fff;
     font-size: 1.5rem;
     text-transform: uppercase;
+    transition: all ease 0.5s;
     padding: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.1rem 0.6rem 0.1rem #000000;

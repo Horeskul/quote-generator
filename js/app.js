@@ -36,7 +36,7 @@ const quotes = [
         person: ` Mother Teresa`,
     },
     {
-        quote: `When you reach the end of your rope, tie a knot in it and hang on."`,
+        quote: `"When you reach the end of your rope, tie a knot in it and hang on."`,
         person: ` Franklin D. Roosevelt`,
     },
     {
